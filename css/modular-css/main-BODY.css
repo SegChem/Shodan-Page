@@ -45,7 +45,8 @@ el otro contenedor dentro del .main-Container está ahí*/
 .main-Section-Parragraph{
     margin:20px;
     margin-top: 0;
-    
+    padding: 2px 10px 20px ;
+    font-size: x-large;
 }
 .main-Section-IMG{
     display: flex;
@@ -54,4 +55,15 @@ el otro contenedor dentro del .main-Container está ahí*/
     padding-bottom: 40px;
 }
 
-
+.main-Section-IMG > img {
+    border-radius: 100px;
+    border: 2px solid black;
+    height: 120px;
+}
+.main-Section-IMG > img:last-child {
+    padding: 10px 0;
+    padding-right: 50px;
+    padding-left: 40px;
+    height: 100px;
+    background-color: white;
+}
