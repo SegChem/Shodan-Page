@@ -23,10 +23,11 @@ el otro contenedor dentro del .main-Container está ahí*/
 .main-Title{
     font-size: 60px;
     margin-bottom: 20px;
-
 }
 .main-Description{
     margin-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
 }
 .main-Section{
     background-color: #d9d9d8;
@@ -39,8 +40,9 @@ el otro contenedor dentro del .main-Container está ahí*/
 }
 .main-Section-Title{
     margin-bottom: 15px;
-    
-    
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(15, 15, 15);
 }
 .main-Section-Parragraph{
     margin:20px;
